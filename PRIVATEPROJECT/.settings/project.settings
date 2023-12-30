@@ -37,13 +37,13 @@
         "show" : true,
         "field" : "CHECK",
         "name" : "ON_STATCATCHER_FLAG",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "CHECK",
         "name" : "ON_LOGCATCHER_FLAG",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
@@ -97,7 +97,7 @@
         "show" : true,
         "field" : "CHECK",
         "name" : "ON_DATABASE_FLAG",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
@@ -109,13 +109,13 @@
         "show" : true,
         "field" : "CLOSED_LIST",
         "name" : "DB_TYPE",
-        "value" : "tJDBCOutput",
+        "value" : "tMysqlOutput",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "CLOSED_LIST",
         "name" : "DB_VERSION",
-        "value" : "ORACLE_12",
+        "value" : "MYSQL_8",
         "contextMode" : false
       }, {
         "show" : true,
@@ -138,19 +138,19 @@
         "show" : true,
         "field" : "TEXT",
         "name" : "HOST",
-        "value" : "\"\"",
+        "value" : "\"localhost\"",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "PORT",
-        "value" : "\"\"",
+        "value" : "\"3306\"",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "DBNAME",
-        "value" : "\"\"",
+        "value" : "\"amc\"",
         "contextMode" : false
       }, {
         "show" : true,
@@ -168,19 +168,19 @@
         "show" : true,
         "field" : "TEXT",
         "name" : "SCHEMA_DB",
-        "value" : "\"\"",
+        "value" : "",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "USER",
-        "value" : "\"\"",
+        "value" : "\"root\"",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS",
-        "value" : "enc:system.encryption.key.v3:1+P0pntdJ71U8irprb/yrgs1bJt6uCoJ5u+cqmU6",
+        "value" : "enc:system.encryption.key.v1:AsT3eaEeDfbKPP2JhyoYbonuVISJCCpHWXoonbbByHlMqrHAEQJu",
         "contextMode" : false
       }, {
         "show" : true,
@@ -192,13 +192,13 @@
         "show" : true,
         "field" : "DBTABLE",
         "name" : "TABLE_STATS",
-        "value" : "\"\"",
+        "value" : "\"stats\"",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "DBTABLE",
         "name" : "TABLE_LOGS",
-        "value" : "\"\"",
+        "value" : "\"logs\"",
         "contextMode" : false
       }, {
         "show" : true,
@@ -216,13 +216,13 @@
         "show" : true,
         "field" : "CHECK",
         "name" : "CATCH_USER_ERRORS",
-        "value" : "true",
+        "value" : "false",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "CHECK",
         "name" : "CATCH_USER_WARNING",
-        "value" : "true",
+        "value" : "false",
         "contextMode" : false
       }, {
         "show" : true,
@@ -388,7 +388,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS_IMPLICIT_CONTEXT",
-        "value" : "enc:system.encryption.key.v3:cy+zn/K2QVal2nj3nqGeZ6ZeMWpfjLxcx9DaUJp1",
+        "value" : "enc:system.encryption.key.v1:E0jKZG/8Ees2Zltcr+ZwKdNP4iiwAxvZnoLseMtA",
         "contextMode" : false
       }, {
         "show" : true,
